@@ -62,10 +62,15 @@ Study notes:
 		break;
    ```
    `webRtcPeer.addIceCandidate` will do `pc.addIceCandidate(candidate, callback, callback);`, that:
-   ** When a web site or app using RTCPeerConnection receives a new ICE candidate from the remote peer over its signaling channel, it should react by calling RTCPeerConnection.addIceCandidate() to hand off the newly-received candidate to the browser's ICE agent so that it's added to the remote description. **
+   > When a web site or app using RTCPeerConnection receives a new ICE candidate from the remote peer over its signaling channel, it should react by calling RTCPeerConnection.addIceCandidate() to hand off the newly-received candidate to the browser's ICE agent so that it's added to the remote description.
    
 5. When start media exchange
-   step 1~4 is the media negotiation phase, which is mainly exchange the SDP info inclduing ICE candidates.
+
+   `step 1~4` is the media negotiation phase, which is mainly exchange the SDP info inclduing ICE candidates.
    But when triggering the media exchange really, I guess it's about after setting the ICE candidate.
    Also this question is posted in [Kurento Google group](https://groups.google.com/d/topic/kurento/ZildfArxR2I/discussion).
    
+   https://webrtchacks.com/trickle-ice/ said that:
+   > As a result both clients perform discovery and connectivity checks simultaneously and it is possible for call establishment to happen in milliseconds.
+   
+   so that the connection with KMS should be happened right now after a valid candidate found.
