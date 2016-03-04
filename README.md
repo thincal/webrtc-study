@@ -1,4 +1,4 @@
-# webrtc-study
+# WebRTC study notes
 
 ## Helloworld
 
@@ -80,4 +80,5 @@ Study notes:
 
 Reference:
 [1] https://www.w3.org/TR/webrtc
+
 [2] https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/
