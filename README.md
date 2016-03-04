@@ -83,7 +83,9 @@ Reference:
   https://www.w3.org/TR/webrtc
   https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/
 
-## ICE candidates
+## ICE (STUN/TURN)
+
+### ICE Candidate
 
 Reference implementaion: https://github.com/WeMeetAgain/go-ice/blob/master/notes
 
@@ -94,4 +96,8 @@ https://www.w3.org/TR/webrtc/#rtcicecandidatetype-enum
 - relay" A relay candidate.
 
 http://www.you54.net/?p=124
+
+### relay forwarding
+
+![Helloworld sequence](relay-forward.png)
 
