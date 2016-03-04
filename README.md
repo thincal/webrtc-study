@@ -74,3 +74,6 @@ Study notes:
    > As a result both clients perform discovery and connectivity checks simultaneously and it is possible for call establishment to happen in milliseconds.
    
    so that the connection with KMS should be happened right now after a valid candidate found.
+   
+   [update] https://www.w3.org/TR/webrtc/#dom-peerconnection-addicecandidate says addIceCandicate will do:
+   > In addition to being added to the remote description, connectivity checks will be sent to the new candidates as long as the ICE Transports setting is not set to none. This call will result in a change to the ICE connection state, and may result in a change to media state if it results in different connectivity being established.
