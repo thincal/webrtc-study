@@ -78,8 +78,7 @@ Study notes:
    [update] https://www.w3.org/TR/webrtc/#dom-peerconnection-addicecandidate says addIceCandicate will do:
    > In addition to being added to the remote description, connectivity checks will be sent to the new candidates as long as the ICE Transports setting is not set to none. This call will result in a change to the ICE connection state, and may result in a change to media state if it results in different connectivity being established.
 
+
 Reference:
-
-[1] https://www.w3.org/TR/webrtc
-
-[2] https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/
+  https://www.w3.org/TR/webrtc
+  https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/
