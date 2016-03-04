@@ -88,9 +88,9 @@ Reference:
 Reference implementaion: https://github.com/WeMeetAgain/go-ice/blob/master/notes
 
 https://www.w3.org/TR/webrtc/#rtcicecandidatetype-enum
-host:  A host candidate.
-srflx: A server reflexive candidate.
-prflx: A peer reflexive candidate.
-relay" A relay candidate.
+- host:  A host candidate.
+- srflx: A server reflexive candidate.
+- prflx: A peer reflexive candidate.
+- relay" A relay candidate.
 
 
