@@ -97,7 +97,8 @@ https://www.w3.org/TR/webrtc/#rtcicecandidatetype-enum
 
 http://www.you54.net/?p=124
 
-### relay forwarding
+### Relay forwarding
 
-![Helloworld sequence](relay-forward.jpg)
+From: http://www.it165.net/network/html/201406/1288.html
+![relay forwrding](relay-forward.jpg)
 
