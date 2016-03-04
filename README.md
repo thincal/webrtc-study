@@ -87,10 +87,10 @@ Reference:
 
 Reference implementaion: https://github.com/WeMeetAgain/go-ice/blob/master/notes
 
-types and its priority:
-- host(126): bind to port on IP address attached to interface(s)
-- peer reflex(110)
-- server reflex(100)
-- relayed(0)
+https://www.w3.org/TR/webrtc/#rtcicecandidatetype-enum
+host:  A host candidate.
+srflx: A server reflexive candidate.
+prflx: A peer reflexive candidate.
+relay" A relay candidate.
 
 
