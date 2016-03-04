@@ -99,5 +99,5 @@ http://www.you54.net/?p=124
 
 ### relay forwarding
 
-![Helloworld sequence](relay-forward.png)
+![Helloworld sequence](relay-forward.jpg)
 
