@@ -82,3 +82,15 @@ Study notes:
 Reference:
   https://www.w3.org/TR/webrtc
   https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/
+
+## ICE candidates
+
+Reference implementaion: https://github.com/WeMeetAgain/go-ice/blob/master/notes
+
+types and its priority:
+- host(126): bind to port on IP address attached to interface(s)
+- peer reflex(110)
+- server reflex(100)
+- relayed(0)
+
+
